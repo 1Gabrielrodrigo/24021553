@@ -2,8 +2,21 @@
 #include <stdlib.h>
 
 int main(){
-int numpessoas
-printf ("Insira o numero de visitantes de hoje:");
-scanf ("%i", & numpessoas);
-prinf ("Registrado quantidade de visitantes:%0i" numpessoas);
+
+floar receita = 0.0;
+float despesa = 0.0;
+float saldo = 0.0;
+
+printf ("Digite o Total de dinheiro que você tem:");
+scanf ("%", & receita);
+
+printf ("Digite o valor de sua conta:");
+scanf ("%f", & despesa);
+
+saldo= receita-despesa;
+
+prinf ("Saldo atual R$:%2.f\n", saldo);
+
+return 0;
+}
   
