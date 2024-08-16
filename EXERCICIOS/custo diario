@@ -1,0 +1,9 @@
+#include <studio.h>
+#include <stdlib.h>
+
+int main(){
+int numpessoas
+printf ("Insira o numero de visitantes de hoje:");
+scanf ("%i", & numpessoas);
+prinf ("Registrado quantidade de visitantes:%0i" numpessoas);
+  
