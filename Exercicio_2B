@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    char nome; 
+
+    // Passo 1: O computador saúda o usuário e pergunta seu nome
+    printf("Olá, eu sou o Nº 1, como é seu nome?\n");
+
+    // Espera o usuário digitar o nome
+    scanf("%c", nome);
+
+    //  O computador responde com uma mensagem de boas-vindas
+    printf("Bem-vindo ao clube, %c\n", nome);
+
+    return 0;
+}
