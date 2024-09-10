@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    float pressao, diametro;
+
+    // Solicita a pressão do pneu
+    printf("Digite a pressão do pneu em psi: ");
+    scanf("%f", &pressao);
+
+    // Solicita o diâmetro do pneu
+    printf("Digite o diâmetro do pneu em polegadas: ");
+    scanf("%f", &diametro);
+
+    // Exibe os dados coletados
+    printf("Dados do pneu:\n");
+    printf("Pressão: %.2f psi\n", pressao);
+    printf("Diâmetro: %.2f polegadas\n", diametro);
+
+    return 0;
+}
